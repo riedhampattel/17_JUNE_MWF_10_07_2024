@@ -18,9 +18,6 @@ int main()
 	{
 		cout<<num[i]<<" ";
 	}
-	//1 2 2 3 4 5
-	//1 2 3 4 5
-	//0 1 2 3 4 5
 	cout<<"\nEnter the value you want to enter = ";
 	cin>>value;//9
 	cout<<"\nEnter the position you want to enter = ";
