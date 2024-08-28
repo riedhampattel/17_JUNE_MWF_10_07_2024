@@ -2,7 +2,7 @@
 using namespace std;
 class Demo
 {
-	private :
+	//private is a default access specifier 
 		int num1;
 		int num2;
 	public :
