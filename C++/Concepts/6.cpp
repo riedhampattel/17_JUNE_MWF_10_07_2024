@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//deep copy
 class Demo
 {
     public :
@@ -27,14 +28,10 @@ int main()
 {
     Demo d1("Rahul",7.2);
     Demo d2(d1);
-    Demo d3(d1);
-    Demo d4(d1);
     d1.display();
     d2.display();
-    *d4.cgpaptr = 9.5;
+    *d2.cgpaptr = 9.5;
     d1.display();
     d2.display();
-    d3.display();
-    d4.display();
     return 0;
 }

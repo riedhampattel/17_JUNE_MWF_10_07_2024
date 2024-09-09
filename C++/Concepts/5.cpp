@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//shallow copy
 class Demo
 {
     public :
