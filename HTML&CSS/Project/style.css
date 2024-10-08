@@ -181,3 +181,111 @@ nav a:hover
     border: 1px solid rgb(0, 225, 255);
     box-shadow: 0px 0px 25px rgb(0, 225, 255);
 }
+.table td,th,table 
+{
+    border: 1px solid brown;
+    font-size: 20px;
+}
+.table td,th
+{
+    padding: 1.2rem;
+}
+.table
+{
+    margin: 5rem;
+}
+.contact-container
+{
+    border: none;
+    margin-top: 5rem;
+}
+.contact-container td i
+{
+    margin-right: 2rem;
+}
+.contact-container td
+{
+    font-size: 30px;
+    padding-bottom: 1rem;
+    transition: 0.5s ease;
+}
+.contact-container tr:hover
+{
+    text-shadow: 0px 0px 15px rgb(0, 225, 255);
+    cursor: pointer;
+}
+hr
+{
+    width: 80rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+@media (max-width : 600px)
+{
+    body
+    {
+        background-color: white;
+    }
+    .logo
+    {
+        font-size: 25px;
+        margin-left: 1rem;
+    }
+    .header nav
+    {
+        display: none;
+    }
+    section h1,h3
+    {
+        color: brown;
+    }
+    .main-content
+    {
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+    }
+    .main-content h1
+    {
+        font-size: 30px;
+    }
+    .main-content h3
+    {
+        font-size: 15px;
+    }
+    .content
+    {
+        margin-left: 2rem;
+        width: 220px;
+        text-align: center;
+    }
+    .content p
+    {
+        color: brown
+    }
+    .social-icons
+    {
+        margin-left: 3.5rem;
+    }
+    .social-icons a i
+    {
+        font-size: 30px;
+        color: black;
+        margin-right: -15px;
+    }
+    .image
+    {
+        margin: -17rem 0rem 0rem 2.5rem;
+    }
+    .image img
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .btn
+    {
+        margin-top: 16rem;
+    }
+    .btn a
+    {
+        color: brown;
+    }
+}
