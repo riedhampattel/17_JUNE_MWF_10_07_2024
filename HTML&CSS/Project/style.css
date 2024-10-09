@@ -219,6 +219,34 @@ hr
     width: 80rem;
     margin: 1.5rem 0rem 1.5rem 0rem;
 }
+.position::before
+{
+    content: "";
+    animation: 20s word infinite;
+}
+.position::after
+{
+    content: "";
+}
+@keyframes word
+{
+    0%,25%
+    {
+        content: "software developer";
+    }
+    25%,50%
+    {
+        content: "web developer";
+    }
+    50%,75%
+    {
+        content: "app developer";
+    }
+    75%,100%
+    {
+        content: "graphics designer";
+    }
+}
 @media (max-width : 600px)
 {
     body
